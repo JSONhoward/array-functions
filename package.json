@@ -1,9 +1,9 @@
 {
 	"name": "@jsonhoward/array-functions",
 	"description": "Misc. useful array functions",
-	"version": "1.0.0",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+	"version": "1.1.0",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
 	"files": [
 		"lib/**/*"
 	],
@@ -19,14 +19,17 @@
 	"homepage": "https://github.com/JSONhoward/array-functions.git",
 	"scripts": {
 		"build": "tsc",
-    "test": "jest",
-    "prepare": "yarn run build",
-    "prepublishOnly": "yarn test",
-    "version": "git add -A src",
-    "postversion": "git push && git push --tags"
+		"test": "jest",
+		"prepare": "yarn run build",
+		"prepublishOnly": "yarn test",
+		"version": "git add -A src",
+		"postversion": "git push && git push --tags"
 	},
-  "license": "MIT",
-  "keywords": ["Array", "functions"],
+	"license": "MIT",
+	"keywords": [
+		"Array",
+		"functions"
+	],
 	"devDependencies": {
 		"@types/jest": "^26.0.15",
 		"@typescript-eslint/eslint-plugin": "^4.7.0",
