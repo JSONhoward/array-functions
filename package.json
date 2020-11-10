@@ -1,5 +1,6 @@
 {
 	"name": "@jsonhoward/array-functions",
+	"description": "Misc. useful array functions",
 	"version": "1.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,7 +26,7 @@
     "postversion": "git push && git push --tags"
 	},
   "license": "MIT",
-  "keywords": ["Array"],
+  "keywords": ["Array", "functions"],
 	"devDependencies": {
 		"@types/jest": "^26.0.15",
 		"@typescript-eslint/eslint-plugin": "^4.7.0",
