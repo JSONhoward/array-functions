@@ -25,7 +25,6 @@
 		"version": "git add -A src",
 		"postversion": "git push && git push --tags"
 	},
-	"type": "module",
 	"license": "MIT",
 	"keywords": [
 		"Array",
