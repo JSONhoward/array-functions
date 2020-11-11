@@ -1,5 +1,1 @@
-const greet = () => 'Hello, World!'
-
-module.exports = {
-	greet
-}
+export const greet = (): string => 'Hello, World!'
