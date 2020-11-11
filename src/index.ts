@@ -1,3 +1,10 @@
+declare global {
+    interface Array<T> {
+        first(): any
+        last(): any
+    }
+}
+
 export function* loop(arr: any[]) {
     for (let i = 0; ; i++) {
         if (i === arr.length) i = 0
